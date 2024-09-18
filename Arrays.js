@@ -2,14 +2,14 @@
 ///////// Static Methods /////////
 //////////////////////////////////
 
-//Array.from()
+// Array.from()
 console.log(Array.from("foo"));
 
-//Array.isArray()
+// Array.isArray()
 console.log(Array.isArray([1, 3, 5])); // true
 console.log(Array.isArray("[]")); // false
 
-//Array.of()
+// Array.of()
 console.log(Array.of("foo", 2, "bar", true)); // Expected output: Array ["foo", 2, "bar", true]
 
 //////////////////////////////////
@@ -212,5 +212,5 @@ console.log(arr.with(2, 6).map((x) => x ** 2)); // [1, 4, 36, 16, 25]
 /////// Instance Properties //////
 //////////////////////////////////
 
-//Array: length
+// Array: length
 console.log(array.length);
